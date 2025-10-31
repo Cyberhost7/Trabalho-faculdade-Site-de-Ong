@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>...</title>
+    <meta name="description" content="...">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header class="main-header">
+    <div class="container navbar">
+        <a href="index.html" class="navbar-logo">
+            <img src="imagens/logo-ong.png" alt="Logo da ONG Impacto Social" width="150">
+        </a>
+
+        <button class="navbar-toggler" id="navbar-toggler" aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <nav class="navbar-menu-wrapper" id="navbar-menu">
+            <ul class="navbar-menu">
+                <li><a href="index.html">Início</a></li>
+                <li class="nav-item-dropdown">
+                    <a href="projetos.html">Projetos <i class="fa-solid fa-chevron-down fa-xs"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="projetos.html#projetos-titulo">Nossas Iniciativas</a></li>
+                        <li><a href="projetos.html#voluntariado-titulo">Seja Voluntário</a></li>
+                        <li><a href="projetos.html#doacao-titulo">Faça uma Doação</a></li>
+                    </ul>
+                </li>
+                <li><a href="cadastro.html" class="btn btn-primary btn-sm">Participe</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+    <main>
+    <div class="container section-padding">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+                <h1>Formulário de Cadastro</h1>
+                <p>Preencha o formulário abaixo para se registrar. Campos com * são obrigatórios.</p>
+                
+                <div class="alert alert-success" role="alert">
+                    <strong>Sucesso!</strong> Seu cadastro foi enviado (exemplo de alerta).
+                </div>
+                <div class="alert alert-danger" role="alert">
+                    <strong>Ops!</strong> Por favor, corrija os campos em vermelho (exemplo de alerta).
+                </div>
+
+                <form action="/endpoint-de-cadastro" method="POST" class="styled-form">
+                    </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="exemplo-modal">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <h2>Termos de Voluntariado</h2>
+            <p>Este é um exemplo de modal que pode ser usado para exibir termos e condições...</p>
+        </div>
+    </div>
+
+    <div class="toast toast-success">
+        <i class="fa-solid fa-check-circle"></i> Notificação de exemplo!
+    </div>
+</main>
+
+    <footer>
+        <p>&copy; 2025 ONG Impacto Social. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>...</title>
+    <meta name="description" content="...">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header class="main-header">
+    <div class="container navbar">    
+        <a href="index.html" class="navbar-logo">
+            <img src="imagens/logo-ong.png" alt="Logo da ONG Impacto Social" width="150">
+        </a>
+
+        <button class="navbar-toggler" id="navbar-toggler" aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <nav class="navbar-menu-wrapper" id="navbar-menu">
+            <ul class="navbar-menu">
+                <li><a href="index.html">Início</a></li>
+                <li class="nav-item-dropdown">
+                    <a href="projetos.html">Projetos <i class="fa-solid fa-chevron-down fa-xs"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="projetos.html#projetos-titulo">Nossas Iniciativas</a></li>
+                        <li><a href="projetos.html#voluntariado-titulo">Seja Voluntário</a></li>
+                        <li><a href="projetos.html#doacao-titulo">Faça uma Doação</a></li>
+                    </ul>
+                </li>
+                <li><a href="cadastro.html" class="btn btn-primary btn-sm">Participe</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+    <main>
+    <div class="container section-padding">
+        <h1 class="text-center">Nossos Projetos e Como Ajudar</h1>
+
+        <section aria-labelledby="projetos-titulo" class="section-padding">
+            <h2 id="projetos-titulo">Conheça Nossas Iniciativas</h2>
+            
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="imagens/projeto-educacao.jpg" alt="Projeto Semente do Amanhã">
+                        <div class="card-body">
+                            <span class="badge badge-primary">Educação</span>
+                            <h3 class="card-title">Semente do Amanhã</h3>
+                            <p>Oferecemos reforço escolar e atividades culturais para crianças de 6 a 12 anos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="imagens/projeto-comunidade.jpg" alt="Projeto Mãos que Ajudam">
+                        <div class="card-body">
+                            <span class="badge badge-primary">Comunidade</span>
+                            <h3 class="card-title">Mãos que Ajudam</h3>
+                            <p>Distribuição de cestas básicas e itens de higiene para famílias em emergência.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section aria-labelledby="voluntariado-titulo" class="section-padding">
+            <h2 id="voluntariado-titulo">Seja um Voluntário</h2>
+            </section>
+
+        <section aria-labelledby="doacao-titulo" class="section-padding">
+            <h2 id="doacao-titulo">Faça uma Doação</h2>
+            </section>
+    </div>
+</main>
+
+    <footer>
+        <p>&copy; 2025 ONG Impacto Social. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
