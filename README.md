@@ -57,16 +57,6 @@ O projeto está hospedado e pode ser acessado publicamente através do link:
 
 Não é necessário um servidor ou dependências. Como o projeto é 100% *client-side* (HTML, CSS, JS), basta clonar o repositório e abrir o `index.html`.
 
-```bash
-# 1. Clone o repositório
-git clone [https://github.com/](https://github.com/Cyberhost7/Trabalho-faculdade-Site-de-Ong.git
-
-# 2. Navegue até a pasta
-cd projeto ong
-
-# 3. Abra o index.html no seu navegador
-# (Pode apenas clicar duas vezes no arquivo)
-
 👤 Autor
 Nome: Antonio Pedro Corredor de Sousa
 
